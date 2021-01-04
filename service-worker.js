@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FeverDream/precache-manifest.2187d5c0231f8d3131a2e71a3c13318a.js"
+  "/FeverDream/precache-manifest.b47ae1e64369a88ab1e9f130a51dca69.js"
 );
 
 self.addEventListener('message', (event) => {
