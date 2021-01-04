@@ -1,4 +1,6 @@
-export default story = {
+import { Story } from "./types";
+
+export const story: Story = {
     prompts: [
       `It's warm, the sun is smiling upon you, its rays warming every inch of your body. The air is cool, rushing by you as you stride down the street, carrying the crisp smell of trees and freshly cut grass.`,
       `You pause to observe the fragments in the beautiful tapestry of the day. The edges are jagged and if you look carefully at them you see that light splits through the cracks between them.`,
@@ -72,7 +74,7 @@ export default story = {
           `I remember when it was just the size of a tiger and now it's as big as an elephant.`,
           `You don't remember feeding it this morning, did you? You look into it's face and realize that it is staring hungrily at you.`],
         options: [{
-          labels: [{ label: null, probability: 70 }],
+          labels: [{ label: "sssss", probability: 70 }],
           prompts: [
             `You realize you hadn't fed it and start to look for the kibble you left in the kitchen. As you run towards it you remember just how large the bag is`,
             `You will have to work hard to get it into the bowl, better do it quick before your elephant sized tiger gets hungry.`,
@@ -113,7 +115,7 @@ export default story = {
           }]
         },
         {
-          labels: [{ label: null, probability: 30 }],
+          labels: [{ label: "sssss", probability: 30 }],
           prompts: [`How large your cat is, it's eyes are mirrors within mirrors within mirrors. You stare deeply into them and notice the interconnecting lattice of its iris pulsate.`,
             `A swaying forest that you are within shifting with the breeze of a warm day.`,
             `Your cat stands in front of you and your hands stretch out to meet the wall of fur.`,
@@ -316,7 +318,7 @@ export default story = {
             `click, click, click, click, tick, tick, tic, tic, tic`]
         },
         {
-          labels: [{ label: "Run Faster", probability: 70 }],
+          labels: [{ label: "Run faster", probability: 70 }],
           prompts: [`You shut your eyes and push forward, reptile man scratches at your back.`,
             `You feel him scratch at your legs and then you don't feel your legs at all.`,
             `You reach your arms out to grasp at anything to pull your forward. but as you reach you just find`,
@@ -440,8 +442,7 @@ export default story = {
           }]
         },
         {
-          labels: [{ label: "Snuggle deeper", probability: 30 }],
-          labels: [{ label: "Keep Going Home", probability: 20 }],
+          labels: [{ label: "Snuggle deeper", probability: 30 }, { label: "Keep Going Home", probability: 20 }],
           prompts: [`You feel secure and cloistered in the warmth of your pillow, too much so to get-up. You resign yourself to the grasp of your new bed.`,
             `Your body settles into the grasp of the soft substance and you feel yourself drawn in, deeper and deeper.`,
             `You try to turn over and get into a more comfortable position but something tugs at your belly. As you struggle to see what it is you find yourself completely attached to your resting place.`],
@@ -743,7 +744,7 @@ export default story = {
             `It pulls away from your face like putty and you struggle to put it back in place.`,
             `As you do, you see a flap of skin slide over your left eye and half of your world goes dark.`],
           options: [{
-            labels: [{ label: "find your eye", probability: 20 }],
+            labels: [{ label: "Find your eye", probability: 20 }],
             prompts: [`You dig your hand through the skin on your face to find your eye`,
               `You feel your skin part like clay and then your fingers enter an abyss within your skull.`,
               `You feel something smooth, a small globe and simultaneously see the shiluette of a hand over a gray background.`,
@@ -1053,7 +1054,7 @@ export default story = {
               labels: [{ label: "Keep looking", probability: 100 }],
               prompts: [`You stumble forward trying to stay hidden as you search for another place to hide`,
                 `You see a door and work your way to it but are stopped by a cold and familiar hand on your shoulder`,
-                `You are too terrified to look but you hear those cold familiar teeth click together as he moves closser to you`,
+                `You are too terrified to look but you hear those sharp teeth you know too well click together as he moves closser to you`,
                 `Click, click, click, cick, tic, tic, tic, tic`]
             }]
           },
@@ -1061,7 +1062,7 @@ export default story = {
             labels: [{ label: "Keep looking", probability: 40 }],
             prompts: [`You stumble forward trying to stay hidden as you search for another place to hide`,
               `You see a door and work your way to it but are stopped by a cold and familiar hand on your shoulder`,
-              `You are too terrified to look but you hear those cold familiar teeth click together as he moves closser to you`,
+              `You are too terrified to look but you hear those sharp teeth you know too well click together as he moves closser to you`,
               `Click, click, click, cick, tic, tic, tic, tic`]
           },
           {

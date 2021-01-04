@@ -1,16 +1,16 @@
 
-interface Story {
+export interface Story {
     prompts: String[];
     options: StorySegment[];
 };
 
-interface Label {
+export interface Label {
     label: string;
     probability: number;
 };
 
-interface StorySegment {
+export interface StorySegment {
     labels: Label[];
     prompts: String[];
-    options: StorySegment[];
+    options?: StorySegment[];
 }
