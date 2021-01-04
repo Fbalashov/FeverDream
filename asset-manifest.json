@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/FeverDream/static/css/main.3c5dc124.chunk.css",
-    "main.js": "/FeverDream/static/js/main.ba017ff7.chunk.js",
-    "main.js.map": "/FeverDream/static/js/main.ba017ff7.chunk.js.map",
-    "runtime-main.js": "/FeverDream/static/js/runtime-main.13e4d890.js",
-    "runtime-main.js.map": "/FeverDream/static/js/runtime-main.13e4d890.js.map",
-    "static/js/2.8e3364f3.chunk.js": "/FeverDream/static/js/2.8e3364f3.chunk.js",
-    "static/js/2.8e3364f3.chunk.js.map": "/FeverDream/static/js/2.8e3364f3.chunk.js.map",
-    "index.html": "/FeverDream/index.html",
-    "precache-manifest.b47ae1e64369a88ab1e9f130a51dca69.js": "/FeverDream/precache-manifest.b47ae1e64369a88ab1e9f130a51dca69.js",
-    "service-worker.js": "/FeverDream/service-worker.js",
-    "static/css/main.3c5dc124.chunk.css.map": "/FeverDream/static/css/main.3c5dc124.chunk.css.map",
-    "static/js/2.8e3364f3.chunk.js.LICENSE.txt": "/FeverDream/static/js/2.8e3364f3.chunk.js.LICENSE.txt",
-    "static/media/Background.css": "/FeverDream/static/media/stars.6494ab5b.png",
-    "static/media/index.css": "/FeverDream/static/media/SingleDay-Regular.5efd1958.ttf"
+    "main.css": "/static/css/main.227aeb2a.chunk.css",
+    "main.js": "/static/js/main.88a9e95c.chunk.js",
+    "main.js.map": "/static/js/main.88a9e95c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fa5691b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fa5691b.js.map",
+    "static/js/2.8e3364f3.chunk.js": "/static/js/2.8e3364f3.chunk.js",
+    "static/js/2.8e3364f3.chunk.js.map": "/static/js/2.8e3364f3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e0f9ab9053ac15ab6d117eee0f75dafa.js": "/precache-manifest.e0f9ab9053ac15ab6d117eee0f75dafa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.227aeb2a.chunk.css.map": "/static/css/main.227aeb2a.chunk.css.map",
+    "static/js/2.8e3364f3.chunk.js.LICENSE.txt": "/static/js/2.8e3364f3.chunk.js.LICENSE.txt",
+    "static/media/Background.css": "/static/media/stars.6494ab5b.png",
+    "static/media/index.css": "/static/media/SingleDay-Regular.5efd1958.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.13e4d890.js",
+    "static/js/runtime-main.2fa5691b.js",
     "static/js/2.8e3364f3.chunk.js",
-    "static/css/main.3c5dc124.chunk.css",
-    "static/js/main.ba017ff7.chunk.js"
+    "static/css/main.227aeb2a.chunk.css",
+    "static/js/main.88a9e95c.chunk.js"
   ]
 }
