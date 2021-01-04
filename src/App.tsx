@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import BackgroundGenerator from './BackgroundGenerator';
 import './App.css';
 import StoryTeller from './StoryTeller';
-import { scrollTo } from './util';
 import Button from './Button';
 
 const renderIntroContent = (setIsStoryActive: (val: boolean) => void ) => {
@@ -23,10 +22,6 @@ const renderIntroContent = (setIsStoryActive: (val: boolean) => void ) => {
         label={'Sleep'}
         onClick={() => {
           setIsStoryActive(true);
-          setTimeout(() => 
-            scrollTo(document.scrollingElement || document.body, document.body.scrollHeight, 1000),
-            100
-          );
         }}
       />
     </div>
