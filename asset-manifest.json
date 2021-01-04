@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FeverDream/static/css/main.3c5dc124.chunk.css",
+    "main.js": "/FeverDream/static/js/main.ba017ff7.chunk.js",
+    "main.js.map": "/FeverDream/static/js/main.ba017ff7.chunk.js.map",
+    "runtime-main.js": "/FeverDream/static/js/runtime-main.13e4d890.js",
+    "runtime-main.js.map": "/FeverDream/static/js/runtime-main.13e4d890.js.map",
+    "static/js/2.8e3364f3.chunk.js": "/FeverDream/static/js/2.8e3364f3.chunk.js",
+    "static/js/2.8e3364f3.chunk.js.map": "/FeverDream/static/js/2.8e3364f3.chunk.js.map",
+    "index.html": "/FeverDream/index.html",
+    "precache-manifest.2187d5c0231f8d3131a2e71a3c13318a.js": "/FeverDream/precache-manifest.2187d5c0231f8d3131a2e71a3c13318a.js",
+    "service-worker.js": "/FeverDream/service-worker.js",
+    "static/css/main.3c5dc124.chunk.css.map": "/FeverDream/static/css/main.3c5dc124.chunk.css.map",
+    "static/js/2.8e3364f3.chunk.js.LICENSE.txt": "/FeverDream/static/js/2.8e3364f3.chunk.js.LICENSE.txt",
+    "static/media/Background.css": "/FeverDream/static/media/stars.6494ab5b.png",
+    "static/media/index.css": "/FeverDream/static/media/SingleDay-Regular.5efd1958.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13e4d890.js",
+    "static/js/2.8e3364f3.chunk.js",
+    "static/css/main.3c5dc124.chunk.css",
+    "static/js/main.ba017ff7.chunk.js"
+  ]
+}
