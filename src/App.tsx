@@ -12,7 +12,8 @@ const renderIntroContent = (setIsStoryActive: (val: boolean) => void ) => {
         But when we sleep that changes, the rules and models that we built to understand the world fail us.
         It starts subtley, a backwards moving of a clock perhaps, but it quickly spreads, infecting every detail of the world around us.
         The effect? Sometimes it is brings bliss, other times confusion or madness.
-
+      </p>
+      <p>
         Then, we awake, it was all a dream. So real a few moments ago but forgotten as we open our eyes.
         What strange oddities lie there? What damned fates of ours have we forgotten?
         Do you wish to know?
@@ -45,11 +46,11 @@ function App() {
         }
       </div>
       <div className="App-footer">
-        {"Fever Dream - 2020 | "}
-        <a href="https://github.com/FBalashov" 
+        {"Thank you | 2021 | "}
+        <a href="https://github.com/Fbalashov/FeverDream" 
           target="_blank"
           rel="noopener noreferrer">
-            a project by a Dev
+            Learn more and submit feedback
           </a>
       </div>
     </div>

@@ -4,6 +4,7 @@ import { story } from './storyProcessor/story';
 import { makeDecision } from './storyProcessor';
 import { scrollTo } from './util';
 import Button from './Button';
+import './StoryTeller.css';
 
 interface Props {
     run: number;
@@ -19,7 +20,7 @@ function StoryTeller({run, setRun}: Props) {
     }
     return [...toldStory, lastSegment.options[step]];
   }, [story]);
-  const prompts = toldStory.map((story, index) => <div key={index}><p>{story.prompts}</p></div>);
+  const prompts = toldStory.map((story, index) => <div className={'Story-Section'} key={index}><p>{story.prompts.map(prompt => <p>{prompt}</p>)}</p></div>);
   const lastSegment = toldStory.slice(-1)[0];
   const optionsToDisplay = lastSegment.options
     ? [ ...new Set(lastSegment.options.flatMap(option => option.labels.map(label => label.label)))]
