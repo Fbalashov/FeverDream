@@ -244,7 +244,7 @@ export const story: Story = {
     {
       labels: [{ label: "Thank your friend", probability: 30 }, { label: "What is a reptile man", probability: 40 }],
       prompts: [
-        `He smiles his toothy and familiar smile and reaches out a slimy hand. It b ends and you see the knuckles undulate to a regular rhythm, a steady click of bones sharp as a knife on a counter.As the finger knives move towards you you see your fearful reflection carved into them.`
+        `He smiles his toothy and familiar smile and reaches out a slimy hand. It bends and you see the knuckles undulate to a regular rhythm, a steady click of bones sharp as a knife on a counter.As the finger knives move towards you you see your fearful reflection carved into them.`
       ],
       options: [{
         labels: [{ label: "Run", probability: 30 }],
@@ -870,7 +870,7 @@ export const story: Story = {
               ]
             },
             {
-              labels: [{ label: "Rub it off your body", probability: 60 }],
+              labels: [{ label: "Rub it off", probability: 60 }],
               prompts: [
                 `You struggle to rub it off your body as the liquid begins to thicken. It becomes harder to move your limbs as they become coated and stick together. You desperately try to scrape the pus off your arms to keep them free but instead find yourself in a tangled mess, arms fused together.`,
                 `As you struggle the liquid continues to run down your face and onto your body encasing it in more and more gunk. You fall to the ground unable to stay balanced, the shell shatters spreading across the ground, along with you. A million pieces spreading out you bounce in every which way into the distance. Your fragments rattle against the ground, their echos fall into a rhythm as they scatter across the ground.`,
@@ -878,7 +878,7 @@ export const story: Story = {
               ]
             },
             {
-              labels: [{ label: "rinse off", probability: 70 }],
+              labels: [{ label: "Rinse off", probability: 70 }],
               prompts: [
                 `You turn on the shower and feel water begin to pour down on you. You close your eyes as it washes your body raising your hands to the spray. You try to lower your hands but find them stiffer than before.`,
                 `Your eyes are shut tight and you feel a film start to develop over your face. You try to struggle and escape the spray of the shower but you’re trapped in a thickening shell. You hear the water ping off your chrysalis ringing clearly through the amber-like case.`,
@@ -886,7 +886,7 @@ export const story: Story = {
               ]
             },
             {
-              labels: [{ label: "rinse it off", probability: 30 }],
+              labels: [{ label: "Rinse off", probability: 30 }],
               prompts: [
                 `You grab the shower head above you and spray yourself down. The gel begins to liquify again and run off your body. It slips onto the floor of the bathtub and swirls its way down to the drain. You watch as the water continues to run over your body, carrying more and more of the gel away.`, 
                 `The water is turned off and the tub swirls around you. You look up as you drop down the drain with the last of the liquid. It slips around you ringing off the pipes as you descend downwards`,

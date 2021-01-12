@@ -10,11 +10,11 @@ const renderIntroContent = (setIsStoryActive: (val: boolean) => void ) => {
       <p>
         The waking world has an order, a logical, understandable method by which it works.
         But when we sleep that changes, the rules and models that we built to understand the world fail us.
-        It starts subtley, a backwards moving of a clock perhaps, but it quickly spreads, infecting every detail of the world around us.
-        The effect? Sometimes it is brings bliss, other times confusion or madness.
+        It starts subtly, perhaps a clock moving backwards, but it quickly spreads, infecting every detail of the world around us.
+        The effect? Sometimes it brings bliss, other times confusion or madness.
       </p>
       <p>
-        Then, we awake, it was all a dream. So real a few moments ago but forgotten as we open our eyes.
+        Then, we wake, it was all a dream. So real a few moments ago but forgotten as we open our eyes.
         What strange oddities lie there? What damned fates of ours have we forgotten?
         Do you wish to know?
         Come, lie down, and sleep as you descend into a fever dream.
